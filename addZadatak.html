@@ -1,0 +1,64 @@
+<!DOCTYPe html>
+<html lang="bs">
+    <head>
+        <title>Dodavanje zadatka</title>
+        <link href="addZadatak.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Dodavanje zadatka</h1>
+            <img id="logo" src="knjigaIkona.svg" alt="logo">
+            <div id="meni">
+                <ul>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="zadaci.html">Odabir vježbe</a></li>
+                    <li><a href="commiti.html">Pregled commita</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="addGodina.html">Dodavanje godine</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id=glavniSadrzaj>
+            <div id= "idForme">
+               
+                <h3>Novi zadatak</h3>
+            <form>
+
+                    <label for="fname">Naziv zadatka</label>
+                    <input type="text" id="fname" name="fname" value="type=text, name = naziv*"> 
+                    
+                    <label for="fname">Tekst postavke *</label>
+                    <button>Browse ...</button>
+                     
+                    <label id="labelNofile">No files seclected</label>
+                   
+                    <label for="fname">Vježbe/Spirale</label>
+                    <input list="browsers" name="browser" value="VježbaX" >
+                    <datalist id="browsers">
+                    <option value="Vježba X">
+                    <option value="Spirala1">
+                    <option value="Spirala2">
+                    <option value="Spirala3">
+                    <option value="Spirala4">
+                        </datalist>
+                    <button id="buttonDodaj">Dodaj</button>
+
+  
+            </form>
+            </div>
+        </div>
+       
+           
+        
+        <div id="footer">
+            <p>Web tehnologije 2018/19</p>
+        </div>
+    </body>
+</html>
